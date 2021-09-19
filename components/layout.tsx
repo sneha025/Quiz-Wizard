@@ -1,4 +1,3 @@
-import { ThemeProvider } from "@emotion/react";
 import { ReactNode } from "react";
 import NavBar from "./navbar";
 interface IProps {

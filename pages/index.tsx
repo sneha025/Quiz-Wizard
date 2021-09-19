@@ -1,21 +1,49 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
-import Stack from "@mui/material/Stack";
-import Button from "@mui/material/Button";
 import Link from "next/link";
 
 function Homepage() {
   return (
     <div className={styles.container}>
       {/* <Nav></Nav> */}
-      <Stack spacing={2} direction="row">
+      <div className="flex gap-3 overflow-hidden ">
         <Link href="/playQuiz">
-          <Button variant="contained"> Play Quiz</Button>
+          <button
+            className="
+              bg-indigo-700
+              hover:bg-purple-300
+              hover:text-gray-800
+              text-white
+              font-semibold
+              
+              px-16
+              rounded-full
+              shadow
+              w-full"
+          >
+            {" "}
+            Play Quiz
+          </button>
         </Link>
         <Link href="/">
-          <Button variant="contained">Create your Quiz</Button>
+          <button
+            className="
+        
+              bg-indigo-700
+              hover:bg-purple-300
+              hover:text-gray-800
+              text-white
+              font-semibold
+           
+              px-16
+              rounded-full
+              shadow
+              w-full"
+          >
+            Create your Quiz
+          </button>
         </Link>
-      </Stack>
+      </div>
     </div>
   );
 }

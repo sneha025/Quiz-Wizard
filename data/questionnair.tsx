@@ -11,9 +11,9 @@ const questionsArray = [
   {
     question: "The lifecycle methods are mainly used for ___.",
     answers: [
-      { answer: "keeping track of event history", iscorrect: true },
+      { answer: "keeping track of event history", iscorrect: false },
       { answer: "enhancing components", iscorrect: false },
-      { answer: "freeing up resources", iscorrect: false },
+      { answer: "freeing up resources", iscorrect: true },
       { answer: "none of the above", iscorrect: false },
     ],
   },
